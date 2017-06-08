@@ -1,0 +1,26 @@
+\documentclass[11pt,a4paper]{report}
+%\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{xspace}
+\begin{document}
+	\title{How to structure a Latex document}
+	\author{Shreyansh Singh}
+	\newcommand{\latex}{\LaTeX\xspace}
+	\date{May 2017}
+	\maketitle
+	\tableofcontents
+	\newpage
+	\section[Effect on staff turnover]{An analysis of the
+		effect of the revised recruitment policies on staff
+		turnover at divisional headquarters}
+	
+	This paragraph has \\ default \\ line spacing.
+	
+	\begin{doublespace}
+		This paragraph has \\ double \\ line spacing.
+	\end{doublespace}
+	
+	\begin{spacing}{2.5}
+		This paragraph has \\ huge gaps \\ between lines.
+	\end{spacing}
+\end{document}
